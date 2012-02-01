@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 12px ;
+    background: #FFF url('../img/bg_body.gif') repeat;
+}
+
+/***********************BOTÃO CARREGANDO***********************/
+#ajaxLoadAni {
+    background: #3A3A3A;
+    color: #FFF;
+    display: none;
+    font-weight: bold;
+    position: fixed;
+    top: 100px;
+    left: 45%;
+    padding: 8px;
+    width: 106px;
+    z-index: 9999;
+    text-align: center;
+}
+
+#ajaxLoadAni span {
+    float: right;
+    margin: 5px 0 0 0;
+}
+/***********************FIM BOTÃO CARREGANDO***********************/
+
+/***********************LISTA DE CLASSES***********************/
+a img{border: none}
+
+.lista_itens{
+    margin: 5px;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.aLeft{text-align: left}
+.aRight{text-align: right}
+.aCenter{text-align: center}
+
+.dis_none{display: none;}
+
+.edit_form_none{display: none}
+.edit_form{display: block}
+
+/*a.bt_voltar{
+    color: #FFF;
+    border: 2px solid #CCC;
+    font-weight: bold;
+    background-color: #FF1200 ;
+    text-decoration: none;
+    padding: 6px 20px;
+    cursor: default;
+}*/
+
+a.add_prod{
+    color: #FFF;
+    border: 2px solid #039;
+    font-weight: bold;
+    background-color: #03F;
+    text-decoration: none;
+    padding: 6px 20px;
+    display: table;
+    margin-top: 10px;
+}
+
+a.qtde_venda{
+    text-decoration: none;
+    border: 1px dotted #FF1200;
+    font-weight: bold;
+    background-color: #efa8a8;
+    padding: 0px 15px;
+}
+
+
+
+
+/**CLASSE PARA LEGENDA DE DATATABLE**/
+.legend_table{
+    border: 2px solid #AAA;
+    background-color: #EEE;
+    width: 200px;
+    float: right;
+    margin-top: 10px;
+}
+
+.legend_table ul{
+    list-style: none;
+}
+
+/**FIM CLASSE PARA LEGENDA DE DATATABLE**/
+
+/***********************FIM DA LISTA DE CLASSES***********************/
+
+
+/***********************FORMULÁRIO DE LOGIN***********************/
+#form_login, #form_esqsenha, #form_cadastrar {
+    width: 20em;
+    font-size: 1.6em;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#form-login h1{
+    text-align: center;
+    color: #000;
+}
+
+#form_login fieldset, #form_esqsenha fieldset, #form_cadastrar fieldset {
+    border: 2px solid #000;
+    padding: 0.5em;
+    background:#FFF url(../img/logo.png) no-repeat center center;
+}
+
+#form_login legend, #form_esqsenha legend, #form_cadastrar legend{
+    border: 2px solid #000;
+    padding: 0 0.5em;
+    color: #000;
+    font-weight: bold;
+}
+
+#form_login label, #form_esqsenha label, #form_cadastrar label{
+    display: block;
+    margin-top: 0.5em;
+}
+
+#form_login input, #form_esqsenha input, #form_cadastrar input{
+    width: 24em;
+    padding: 4px;
+    border: 2px #CCC solid;
+}
+
+#form_login input#enviar, #form_esqsenha input#enviar, #form_cadastrar input#enviar{
+    color: #FFF;
+    margin: 1em 0;
+    display: block;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #000 ;
+}
+
+#form_login a, #form_esqsenha a, #form_cadastrar a{
+    text-decoration: none;
+    font-size: 0.7em;
+    color: #000;
+}
+/***********************FIM FORMULÁRIO DE LOGIN***********************/
+
+/***********************TODO***********************/
+#todo{
+    border: 1px solid #BBB;
+    margin: 20px auto 0;
+    width: 960px;    
+    background-color: #FFF;
+}
+/***********************FIM TODO***********************/
+
+
+/***********************TOP***********************/
+#top_links{ float: right; }
+#top_links ul{ margin: 0; }
+#top_links li{display: inline; border-right: 1px solid #000;padding-right: 8px;padding-left: 6px;}
+#top_links li:last-child{border-right: 0px}
+#top_links li a{text-decoration: none;color: #000;}
+/***********************FIM TOP***********************/
+
+
+/***********************MENU***********************/
+#menu {
+    text-align: left;
+    float: left;
+    display: inline-block;
+    padding:0px;
+    background-color: #BDD2FF;
+    width: 100%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#menu a img{ border: none; }
+#menu .sf-menu{ margin-bottom: 0; }
+#mn_username{ text-align: center; padding-top: 3px;}
+/***********************MENU***********************/
+
+
+/***********************CONTENT***********************/
+#lista_submenus, #content{
+    padding-top: 10px;
+    clear: both;
+}
+
+
+.limit_h{
+    height: 450px;
+    border: 1px solid #CCC;
+    overflow: auto;
+    margin: 1px 5px;
+    padding: 0px 10px;
+}
+
+/***********************FIM CONTENT***********************/
+
+
+/***********************FOOTER***********************/
+#footer{
+    text-align: center;
+    border-top: #BBB;
+    background: #FFF url('../img/bg_body.png') repeat;
+    padding: 10px 0;
+}
+/***********************FIM FOOTER***********************/
+
+
+/***********************FORMULÁRIO GERAL***********************/
+.form_geral {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form_geral fieldset {
+    border: 0;    
+}
+
+.form_geral label{
+    display: block;
+    margin-top: 0.5em;
+}
+
+.form_geral input, .form_geral select, .form_geral textarea{
+    width: 24em;
+    padding: 4px;
+    border: 2px #CCC solid;
+}
+
+.form_geral input.qtde{
+    width: 4em;
+    margin-left: 15px;
+}
+
+.form_geral select{ width: auto }
+.form_geral textarea{ width: 99% }
+
+.form_geral input[type=submit], .form_geral input[type=reset]{
+    padding: 0.41em 1em;
+    width: auto;
+}
+
+.form_geral .union_inputs{
+    display: block;
+    margin: 5px 0px;    
+}
+
+.form_geral .union_inputs label{
+    display: inline;
+}
+/***********************FIM FORMULÁRIO GERAL***********************/
+
+
+/***********************ERROS***********************/
+#form_login p, #form_esqsenha p, #form_cadastrar p,
+#form_login label.error, #form_esqsenha label.error, #form_cadastrar label.error,  
+.form_geral p, .form_geral label.error
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+    border: 1px solid #D893A1;
+    background-color: #FBE6F2;
+    margin: 10px 0 5px;
+    padding: 10px;
+}
+
+#form_login input.error, #form_esqsenha input.error, #form_cadastrar input.error {
+    border: #990000 solid 2px;
+    background: #ccc;
+}
+/***********************FIM ERROS***********************/
+
+
