@@ -48,6 +48,7 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',	'x+b');
 
 define('NAME_SITE', 'SITE'); //nome do site
 define('NAME_ADMIN', 'ADMINISTRA&Ccedil;&Atilde;O'); //nome administrativo
+define('NAME_THEME', 'smoothness'); //nome theme defualt
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

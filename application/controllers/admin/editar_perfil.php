@@ -89,4 +89,29 @@ class Editar_perfil extends MY_Controller {
     }
     
     
+    
+    public function alterar_theme($msg = NULL){
+        $this->data['title']  = NAME_ADMIN . " - Meus Dados - Alterar Tema";
+        
+        $this->data['msg'] = $msg;
+        
+        $this->load->model('theme_model');
+        $this->data['themes'] = $this->theme_model->get_all();
+        
+        $this->admin('editar_perfil_theme');
+    }
+    
+    
+    public function alter_theme(){
+        $data['id_theme']  = $this->input->post('theme');    
+        
+        if($this->user_model->editar($data)){
+            $this->session->set_userdata(array('id_theme' => $data['id_theme']));            
+            $this->alterar_theme("<p>Alterado com sucesso!</p>");
+        } else {
+            $this->alterar_theme("<p>Erro na alteração!</p>");
+        }
+    }
+    
+    
 }

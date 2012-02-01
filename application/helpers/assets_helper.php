@@ -52,7 +52,8 @@ if ( ! function_exists('load_theme'))
 {
     function load_theme($theme = 'smoothness')
     {
-        return '<link rel="stylesheet" href="' . base_url() . 'assets/themes/' . $theme . '/jquery-ui-1.8.16.custom.css"/>' . "\n";        
+        if( ! $theme || $theme == '') $theme = 'smoothness';        
+        return '<link rel="stylesheet" href="' . base_url() . 'assets/themes/' . $theme . '/jquery-ui.css"/>' . "\n";        
     }
 
 }

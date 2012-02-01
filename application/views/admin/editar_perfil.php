@@ -43,6 +43,8 @@
                 
                 <a href="admin/editar_perfil/alterar_avatar" class="ui_class">Alterar Imagem</a>                
                 
+                <a href="admin/editar_perfil/alterar_theme" class="ui_class">Alterar Tema</a>                
+                
                 <br /><br />
                 <input type="submit" value="Enviar" id="enviar" />
                 

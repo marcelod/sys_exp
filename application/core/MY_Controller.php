@@ -159,7 +159,7 @@ class MY_Controller extends CI_Controller {
     
     
     public function header_adm() {
-        $this->data['theme'] = load_theme();
+        $this->data['theme'] = $this->theme();
             
         $this->data['css'] = load_css(array(
                                         'superfish',
@@ -194,6 +194,13 @@ class MY_Controller extends CI_Controller {
     
     public function footer_adm() {
         $this->load->view('admin/default/footer');
+    }
+    
+    
+    private function theme() {
+        $this->load->model('theme_model');
+        
+        return load_theme($this->theme_model->get_theme());
     }
 
 

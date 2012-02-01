@@ -230,6 +230,15 @@ a.qtde_venda{
 .form_geral .union_inputs label{
     display: inline;
 }
+
+
+.change_theme{
+    display: inline-block;
+    width: 200px;
+    margin: 5px 10px;
+    text-align: center;
+}
+
 /***********************FIM FORMULÁRIO GERAL***********************/
 
 

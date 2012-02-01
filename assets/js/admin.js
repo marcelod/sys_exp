@@ -17,8 +17,11 @@ $(function(){
     });
     
     
-    $('form.form_geral').addClass(' ui-widget-content');
-    $('table.records').addClass(' ui-widget-content');
+//    $('form.form_geral').addClass('ui-widget-content');
+//    $('table.records').addClass('ui-widget-content');
+//    $('.change_theme').addClass('ui-widget-content');
+    
+    $('form.form_geral, table.records, .change_theme').addClass('ui-widget-content');
     
     
     //ACCORDION

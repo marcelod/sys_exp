@@ -67,6 +67,7 @@ class Home extends MY_Controller {
                'str_login'    => $user->str_login,
                'str_nome'     => $user->str_nome,
                'str_email'    => $user->str_email,
+               'id_theme'     => $user->id_theme,
                'logAdm'       => TRUE
            );
 
