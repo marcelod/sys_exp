@@ -105,7 +105,7 @@ class MY_Controller extends CI_Controller {
                     $mn.= $submenu->str_menu;
                     $mn.= "</a>\n";
 
-                    $SubSubMenu = $this->menu_model->get_menu($table,$submenu->id_menu);
+                    $SubSubMenu = $this->menu_model->get_menu($table,$submenu->id);
 
                     if($SubSubMenu){
                         $mn.= "<ul>\n";

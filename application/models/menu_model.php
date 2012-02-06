@@ -8,8 +8,8 @@ class Menu_model extends CI_Model {
 
     public function get_menu($table, $nivel = NULL){
 
-        //$this->db->select('id_menu, str_menu, str_link, str_alt, str_target, str_icon, id_submenu');
-        $this->db->select('*');
+        $this->db->select("$table.id, $table.str_menu, $table.str_link, $table.str_alt, $table.str_target, $table.str_icon");
+//        $this->db->select('*');
         
         $this->db->from($table);
         $this->db->join($table.'_acesso',$table.'_acesso.id_menu = '.$table.'.id','left');

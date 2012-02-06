@@ -234,9 +234,10 @@ a.qtde_venda{
 
 .change_theme{
     display: inline-block;
-    width: 200px;
+    width: 130px;
     margin: 5px 10px;
     text-align: center;
+    padding: 5px 0;
 }
 
 /***********************FIM FORMULÁRIO GERAL***********************/
