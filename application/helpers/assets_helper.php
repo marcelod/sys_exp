@@ -50,10 +50,10 @@ if ( ! function_exists('load_js'))
  */
 if ( ! function_exists('load_theme'))
 {
-    function load_theme($theme = 'smoothness')
+    function load_theme($theme = NAME_THEME)
     {
-        if( ! $theme || $theme == '') $theme = 'smoothness';        
-        return '<link rel="stylesheet" href="' . base_url() . 'assets/themes/' . $theme . '/jquery-ui.css"/>' . "\n";        
+        if( ! $theme || $theme == '') $theme = NAME_THEME;        
+        return '<link rel="stylesheet" href="' . base_url() . 'assets/themes/' . $theme . '/jquery-ui-1.10.0.custom.min.css"/>' . "\n";        
     }
 
 }

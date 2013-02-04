@@ -44,7 +44,7 @@ $(function(){
     //MASCARA PARA CAMPO DE CNPJ
     $("#str_cnpj").mask('99.999.999/9999-99');
     //MASCARA PARA CAMPO DE QTDE ACEITANDO SOMENTE NUMEROS
-    $('.qtde').live({
+    $('.qtde').on({
         keypress:function(e){
             if ((e.which>=48 && e.which<=57) || e.which==8 || e.which==0) {
                 return true;

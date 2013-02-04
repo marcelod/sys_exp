@@ -154,10 +154,10 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 | use segment based URLs.
 |
 */
-$config['allow_get_array']	= TRUE;
+$config['allow_get_array']		= TRUE;
 $config['enable_query_strings'] = FALSE;
 $config['controller_trigger']	= 'c';
-$config['function_trigger']	= 'm';
+$config['function_trigger']		= 'm';
 $config['directory_trigger']	= 'd'; // experimental not currently in use
 
 /*
@@ -244,13 +244,13 @@ $config['encryption_key'] = 'keyf0rCryptOands3cur17ygener4tef0rcL13ntSofTh3s1mw3
 | 'sess_time_to_update'		= how many seconds between CI refreshing Session Information
 |
 */
-$config['sess_cookie_name']	= 'cisession';
-$config['sess_expiration']	= 7200;
+$config['sess_cookie_name']		= 'cisession';
+$config['sess_expiration']		= 7200;
 $config['sess_expire_on_close']	= FALSE;
 $config['sess_encrypt_cookie']	= FALSE;
 $config['sess_use_database']	= TRUE;
-$config['sess_table_name']	= 'tb_ci_sessions';
-$config['sess_match_ip']	= FALSE;
+$config['sess_table_name']		= 'tb_ci_sessions';
+$config['sess_match_ip']		= FALSE;
 $config['sess_match_useragent']	= TRUE;
 $config['sess_time_to_update']	= 300;
 
@@ -293,10 +293,10 @@ $config['global_xss_filtering'] = TRUE;
 | 'csrf_cookie_name' = The cookie name
 | 'csrf_expire' = The number in seconds the token should expire.
 */
-$config['csrf_protection'] = FALSE;
-$config['csrf_token_name'] = 'csrf_test_name';
+$config['csrf_protection'] 	= FALSE;
+$config['csrf_token_name'] 	= 'csrf_test_name';
 $config['csrf_cookie_name'] = 'csrf_cookie_name';
-$config['csrf_expire'] = 7200;
+$config['csrf_expire'] 		= 7200;
 
 /*
 |--------------------------------------------------------------------------

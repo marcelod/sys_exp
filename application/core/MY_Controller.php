@@ -51,7 +51,7 @@ class MY_Controller extends CI_Controller {
         
         $this->data['js']  = load_js(array(
                                         'min/jquery.min', 
-                                        'min/jquery-ui-1.8.16.custom.min',
+                                        'min/jquery-ui-1.10.0.custom.min',
                                         'min/jquery.validate.min',
                                         'min/jquery.styletable.min',
                                         'min/superfish.min',
@@ -59,7 +59,7 @@ class MY_Controller extends CI_Controller {
                                         'min/jquery.ui.datepicker-pt-BR.min',
                                         'min/jquery.dataTables.min',
                                         'min/jquery.maskMoney.min',
-                                        'min/jquery.maskedinput-1.3.min',
+                                        // 'min/jquery.maskedinput-1.3.min',
                                         'validate_form',
                                         'main')
                                     );
@@ -170,7 +170,7 @@ class MY_Controller extends CI_Controller {
         
         $this->data['js']  = load_js(array(
                                         'min/jquery.min', 
-                                        'min/jquery-ui-1.8.16.custom.min',
+                                        'min/jquery-ui-1.10.0.custom.min',
                                         'min/jquery.validate.min',
                                         'min/jquery.styletable.min',
                                         'min/superfish.min',
@@ -178,7 +178,7 @@ class MY_Controller extends CI_Controller {
                                         'min/jquery.ui.datepicker-pt-BR.min',
                                         'min/jquery.dataTables.min',
                                         'min/jquery.maskMoney.min',
-                                        'min/jquery.maskedinput-1.3.min',
+                                        // 'min/jquery.maskedinput-1.3.min',
                                         'validate_form_admin',
                                         'admin')
                                     );
